@@ -1,0 +1,9 @@
+<div *ngFor = "let i of (response|async)">
+    {{i.id}}
+    {{i.title}}
+    {{i.price}}
+    {{i.description}}
+    {{i.category}}
+    <img src = {{i.image}}>
+    {{i.rating}}
+    </div>
